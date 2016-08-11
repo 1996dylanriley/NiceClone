@@ -102,3 +102,52 @@ form{
 .inbox{
     font-size: 100px;
 }
+.explorepicturegroup{
+    max-width:inherit;
+    margin:2%;
+    display:inline;
+   
+}
+.picturebox{
+    width:inherit;
+    height: 60%;
+    
+}
+.pblabel{
+    height:40%;
+    background-color:white;
+    max-width:inherit;
+}
+.container3{
+    max-width:20%;
+    display:inline-block;
+    margin:0 2%;
+}
+.well2{
+    max-height: 40%;
+    background-color: gray;
+
+}
+
+.container4{
+    max-width:50%;
+    display: inline-block;
+    margin: 2%;
+    overflow:hidden;
+}
+.well2inner{
+    max-width:inherit;
+}
+.container4small{
+    max-width:20%;
+    display: inline-block;
+    margin: 2%;
+    float:right;
+    height: 100%;
+}
+.well2innersmall{
+    max-width:inherit;
+    min-height: 100%;
+}
+
+
