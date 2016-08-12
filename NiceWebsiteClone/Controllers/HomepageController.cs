@@ -11,6 +11,7 @@ namespace NiceWebsiteClone.Controllers
         // GET: Homepage
         public ActionResult Index()
         {
+            
             return View();
         }
     }

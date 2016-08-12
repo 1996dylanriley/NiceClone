@@ -26,8 +26,15 @@
 
 }
 form{
-    width:50%;
-    margin:auto auto;
+    
+}
+#text{
+    min-width:8px;
+    max-width: 100%;
+    width: inherit;
+    min-height:50px;
+    background-color:white;
+    margin:30px;
 }
 .dashboard{
     columns: 2;
