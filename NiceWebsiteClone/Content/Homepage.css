@@ -132,8 +132,9 @@ form{
 .container4{
     max-width:50%;
     display: inline-block;
-    margin: 2%;
+    margin: 1%;
     overflow:hidden;
+    vertical-align:top;
 }
 .well2inner{
     max-width:inherit;
@@ -141,13 +142,86 @@ form{
 .container4small{
     max-width:20%;
     display: inline-block;
-    margin: 2%;
-    float:right;
+    margin: 1%;
     height: 100%;
+    vertical-align:top;
 }
 .well2innersmall{
     max-width:inherit;
     min-height: 100%;
+
+}
+.rect{
+    background-color:steelblue;
+    height:99%;
+    min-height:20px;
+    width:10px;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    position:absolute;
+}
+.newstext{
+    margin-left: 15px;
+    display:block;
+    font-size:1.2em;
+    word-break:break-word;
+}
+.news{
+    width:60%;
+    max-width:60%;
+    flex:3;
+    padding-right:10%;
+    
+    
+}
+.artical{
+    max-width:100%;
+    overflow-wrap:break-word;
+    word-break:break-all;
+    position:relative;
+}
+.collumns{
+    margin:2%;
+    display:flex;
+}
+.twitter{
+    flex:2;
+    
+}
+.tweets{
+    display:inline-block;
+}
+.tweetsanchor{
+    display: inline;
+}
+#grey{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin:0;
+    
+}
+.tweetlogo{
+    padding:5px;
+    border-radius:10px;
+    height:35px;
+    width:35px;
 }
 
-
+.tweetanchor{
+    font-size:15px;
+    
+    
+}
+.tweetanchor a {color:gray;}
+.twitterimage{
+    margin-bottom:15px;
+}
+#old{
+    border-radius:15px;
+}
+.tweetcontent{
+    margin-left:30px;
+}
