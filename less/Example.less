@@ -1,11 +1,13 @@
-/* Mixin */
-.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
-	-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-	-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-	box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+.custom > li {
+border-color:#264965 #264965 #264965 #2F577A;
+border-style:solid;
+border-width:1px;
+a:hover, a:focus {
+	background-color:#264965;
+color:#FFFFFF;
+}
+:last-child {
+border-right-color:#2F577A;
 }
 
-/* Implementation */
-#somediv {
-	.box-shadow(5px, 5px, 6px, 0.3);
-} 
+}

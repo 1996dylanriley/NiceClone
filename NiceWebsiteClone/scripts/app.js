@@ -43,9 +43,9 @@
         //if (win.width() > 814) { $('.signin2').hide(); }
         //if (win.width() < 814) { $('.signin2').show(); }
     });
-    //$('.evidencetoggle').on('click', function () {
-    //    $('#evidence').toggle();
-    //});
+    $('.evidencetoggle').on('click', function () {
+        $('#evidence').toggle();
+    });
     //$('.menubutton').on('click', function () {
     //    $('#navbuttons').toggle();
     //});
