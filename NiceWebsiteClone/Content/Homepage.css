@@ -10,18 +10,20 @@
     margin: auto auto;
     width: 70%;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .dashboard-list{
     float:none;
+    vertical-align:top;
     
 }
 .dashboard, .dashboard-list, .border{
-    background-color: #2f577a;
+    background-color: #2F577A;
 }
 
 .outter-dashboard{
     overflow:hidden;
-    background-color: #4a4a4a;
+    background-color: #264965;
     color: white;
 
 }
@@ -31,10 +33,12 @@ form{
 #text{
     min-width:8px;
     max-width: 100%;
-    width: inherit;
+    width: 100%;
     min-height:50px;
     background-color:white;
-    margin:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    
 }
 .dashboard{
     columns: 2;
@@ -42,21 +46,68 @@ form{
     margin:0 auto;
     overflow:hidden;
     font-size: 20px;
+    padding-left: 70px;
+    padding-top: 50px;
 }
 hr {
     border-color: transparent;
 }
 .title{ 
-    font-size: 40px;
+    font-size: 45px;
     color:white;
     font-weight: 500;
 
 }
+.but{
+    border-color:white;
+    background-color:forestgreen;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    
+}
+.custom > li > a:hover, .custom > li > a:focus {
+    background-color: #264965;
+    color: #FFFFFF;
+}
+
+.custom > li{
+    border-style:solid;
+    border-right-color: #264965;
+    border-left-color: #2F577A;
+    border-bottom-color:#264965;
+    border-top-color:#264965;
+    border-width:1px;
+}
+.custom > li:last-child{
+    border-right-color:#2F577A;
+}
+a > .whitefont:hover{
+    text-decoration:underline;
+}
+.but:hover{
+    background-color:forestgreen;
+    text-decoration:underline;
+    
+}
+.mybutton:hover{
+    text-decoration:underline;
+}
 
 .dashboard-pills{
     margin: auto auto;
-    width: 70%;
+    width: 100%;
+    padding:0%;
 
+}
+.dashboard-pills li {
+    margin-right:0;
+    font-size:20px;
+    
+}
+.whitefont{
+    color:white;
 }
 .navbar-inner{
     text-align:center;
@@ -226,4 +277,123 @@ form{
 }
 .tweetcontent{
     margin-left:30px;
+}
+.lightblue{
+    color:lightskyblue;
+    
+}
+.header{
+    min-width:100%;
+    min-height:70px;
+    background-color:black;
+}
+.headerlogo{
+    font-size:55px;
+    color:white;
+    display:inline;
+    margin-left:0;
+    margin-right:-15px;
+    
+    
+
+}
+.navbutton {
+    height: 70px;
+    max-width: 110px;
+    min-width: 40px;
+    color: white;
+    background-color: black;
+    border-color: #264965;
+    border-width: 1px;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.navbutton:hover{
+    background-color:steelblue;
+}
+#logocontainer{
+    overflow:hidden;
+  
+}
+.signinbutton{
+    border-color:white;
+    color:white;
+    background-color:black;
+    padding: 7px;
+    vertical-align:bottom;
+    margin-bottom:3%;
+}
+.dropdown-toggle{
+    display:inline-block;
+}
+.caret{
+    display:block;
+    margin-left:20px;
+}
+#navbuttons{
+ display:inline;
+ float:right;
+}
+#evidence{
+    background-color:teal;
+    width:100%;
+    
+}
+.ebutton{
+    
+  
+    margin-left:-5px;
+    min-width:50px;
+    height:40px;
+    padding:5px;
+    background-color:inherit;
+    border-width:0.5px;
+    border-color:#264965;
+    border-right:none;
+    border-bottom:none;
+}
+#elist{
+    margin-bottom:0px;
+    padding-bottom:0;
+    
+}
+#elist li{
+    display:inline;
+    float:right;
+    
+}
+#rightalign{
+    overflow:hidden;
+}
+form{
+    height:2px;
+}
+.searchbutton{
+    height:30px;
+    width:30px;
+    font-size:30px;
+    background-color:lightgrey;
+    color:black;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:18px;
+}
+.menubutton{
+    float:left;
+    margin:10px;
+    border:none;
+    color:white;
+    background:black;
+}
+.signin2{
+    float:right;
+    margin:10px;
+    border:none;
+    color:white;
+    background:black;
 }

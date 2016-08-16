@@ -5,58 +5,97 @@
 
 <link href="~/Content/Homepage.css" rel="stylesheet" />
 
-<div class="outter-dashboard row">
+<div class="header">
     <div class="container2">
-        
-        <div class="container">
-            
-                        <div id="text"class="input-append">
-                            <form>
-                                <input class="input-xxlarge" type="text" placeholder="Search NICE.org">
-                                <span type="button" class="btn"><i class="icon-nice-search"></i></span> 
-                            </form>
-                        </div>
-                        
+        <div id="logocontainer">
+            <i aria-hidden="true" class="icon-nice-logo headerlogo"></i><i aria-hidden="true" class="icon-nice-logo-name headerlogo headerlogo1"></i>
+            <div id="navbuttons">
 
-                  
-        </div>
-
-        
-    </div>
-           <div class="border">
-               <div class="container2">
-                   <div class="dashboard">
-
-                       <h1 class="title">Improving health and social care through evidence-based guidance</h1>
-                       <button class="btn-large btn-success">Find Guidence</button>
-                       <hr />
-                       <div class="dashboard-list">
-                           <hr />
-
-                           Browse guidence by area:
-                           <p><i class="icon-nice-chevron-right"><a>Conditions and diseases</a></i></p>
-                           <p><i class="icon-nice-chevron-right"><a>Health protection</a></i></p>
-                           <p><i class="icon-nice-chevron-right"><a>Lifestyle and wellbeing</a></i></p>
-                           <p><i class="icon-nice-chevron-right"><a>Population groups</a></i></p>
-                           <p><i class="icon-nice-chevron-right"><a>Service delivery, organisation and staffing</a></i></p>
-                           <p><i class="icon-nice-chevron-right"><a>Settings</a></i></p>
-                       </div>
-
-                   </div>
-               </div>
-
+                <button class="navbutton">Nice Pathways</button>
+                <button class="navbutton">Nice Guidence</button>
+                <button class="navbutton">Standards and indicators</button>
+                <button class="navbutton dropdown-toggle evidencetoggle" data-toggle="dropdown">Evidence search <span class="caret"></span></button>
+                <button class="signinbutton">Sign in</button>
 
             </div>
+            <button class="menubutton">menu</button>
+            <button class="signin2">Sign in</button>
 
-    <div class="navbar navbar-inverse">
-        <div class="navbar-inner">
+
+        </div>
+    </div>
+    <div id="evidence">
+        <div class="container2">
+            <div id="rightalign">
+
+
+                <ul id="elist">
+                    <li><button class="ebutton">ggg</button></li>
+                    <li><button class="ebutton">ggg</button></li>
+                    <li><button class="ebutton">ggg</button></li>
+                    <li><button class="ebutton">ggg</button></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="outter-dashboard">
+    <div class="container2">
+
+        <div class="container">
+
+            <div id="text" class="input-append">
+                <form>
+                    <input class="" type="text" placeholder="Search NICE.org" style="min-width:100% !important; min-height:50px !important;">
+                    <span type="button" class="btn searchbutton"><p class="icon-nice-search"></p></span>
+                </form>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="border">
+        <div class="container2">
+            <div class="dashboard">
+
+                <h1 class="title">Improving health and social care through evidence-based guidance</h1>
+                <a href="#" class="btn but">Find NICE Guidence</a>
+                <hr />
+                <div class="dashboard-list">
+
+
+                    Browse guidence by area:
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Conditions and diseases</a></i></p>
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Health protection</a></i></p>
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Lifestyle and wellbeing</a></i></p>
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Population groups</a></i></p>
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Service delivery, organisation and staffing</a></i></p>
+                    <p><i class="icon-nice-chevron-right lightblue"><a>  Settings</a></i></p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div>
+        <div>
             <div class="container2">
-                <ul class="nav nav-pills dashboard-pills">
-                    <li></li>
-                    <li><a href="#"><span class="icon-nice-chevron-right"></span> Lorem ipsum</a></li>
-                    <li><a href="#"><span class="icon-nice-chevron-right"></span> Lorem ipsum</a></li>
-                    <li><a href="#"><span class="icon-nice-chevron-right"></span> Lorem ipsum</a></li>
-                    <li><a href="#"><span class="icon-nice-chevron-right"></span> Lorem ipsum</a></li>
+                <ul class="nav nav-pills dashboard-pills custom">
+
+                    <li><a href="#"><span class="icon-nice-chevron-right lightblue"></span> <span class="whitefont">Save Money</span></a></li>
+                    <li><a href="#"><span class="icon-nice-chevron-right lightblue"></span> <span class="whitefont">Put guidence first into practice</span></a></li>
+                    <li><a href="#"><span class="icon-nice-chevron-right lightblue"></span> <span class="whitefont">Find journals and databases</span></a></li>
+                    <li><a href="#"><span class="icon-nice-chevron-right lightblue"></span> <span class="whitefont">Market access support</span></a></li>
+                    <li><a href="#"><span class="icon-nice-chevron-right lightblue"></span> <span class="whitefont">Get involved</span></a></li>
 
 
 
@@ -64,7 +103,7 @@
             </div>
         </div>
     </div>
-            
+
 </div>
 
 <div class="container2">
@@ -72,7 +111,7 @@
         <div class="container">
             <div id="latestUpdates">
                 <div class="section">
-                    
+
                     <ul class="nav nav-list sectionlist">
                         <li class="nav-header">List header</li>
                         <li><a href="#">Library</a></li>
@@ -85,14 +124,14 @@
 
                 </div>
                 <div class="section">
-                    
+
                     <ul class="nav nav-list sectionlist">
                         <li class="nav-header">List header</li>
                         <li><a href="#">Library</a></li>
                         <li><a href="#">Library</a></li>
                         <li><a href="#">Library</a></li>
                         <li><a href="#">Library</a></li>
-                        
+
                     </ul>
                     <button class="mybutton">Yes this is that button</button>
 
@@ -105,7 +144,8 @@
             In Depth
             <span class="pull-right">
                 Explore NICE <a href="#">News</a>| <a href="#">About</a> <a href="#">Events</a>| <a href="#">Get involved</a>
-            </span></p>
+            </span>
+        </p>
         <div class="container3">
             <div class="explorepicturegroup container">
                 <a href="#">
@@ -114,7 +154,7 @@
                 </a>
             </div>
         </div>
-        
+
         <div class="container3">
             <div class="explorepicturegroup container">
                 <a href="#">
@@ -145,7 +185,7 @@
             <div class="container4">
                 <div class="container">
                     <a href="#">
-                         <img src="~/pictures/Network-of-people-alt.jpg" class="c4contentbig"/>
+                        <img src="~/pictures/Network-of-people-alt.jpg" class="c4contentbig" />
                         <div class="well well2inner">the text</div>
                     </a>
                 </div>
@@ -153,8 +193,8 @@
             <div class="container4small">
                 <div class="container">
                     <a href="#">
-                        
-                        <img src="~/pictures/calendar_icon.png" class="c4contentsmall" align="top"/>
+
+                        <img src="~/pictures/calendar_icon.png" class="c4contentsmall" align="top" />
                         <div class="well well2innersmall">the text</div>
                     </a>
                 </div>
@@ -194,13 +234,13 @@
                 <div class="tweet">
                     <div>
 
-                        <img src="~/pictures/twiiternice.png" class="tweetlogo" /> <span class="tweetanchor"><B>NICE</B><a href="#">@@NICEcomms</a></span> 
+                        <img src="~/pictures/twiiternice.png" class="tweetlogo" /> <span class="tweetanchor"><B>NICE</B><a href="#">@@NICEcomms</a></span>
                         <div class="tweetcontent">
                             <p>Dr Finella Craig from @@GreatOrmondSt blogs about working in end of life care for children: <a href="https://www.nice.org.uk/news/blog/working-together-to-support-care-at-the-end-of-life">https://www.nice.org.uk/news/blog/working-together-to-support-care-at-the-end-of-life</a> …</p>
                             <img src="~/pictures/CpkNtvFW8AQklhc.jpg" class="twitterimage" id="old" />
                         </div>
                         <hr id="grey" />
-                        
+
                     </div>
                 </div>
 
@@ -210,7 +250,7 @@
                         <img src="~/pictures/twiiternice.png" class="tweetlogo" /> <span class="tweetanchor"><B>NICE</B><a href="#">@@NICEcomms</a></span>
                         <div class="tweetcontent">
                             <p>Last chance to join our new expert advisers panel! Help shape our guidelines on an ad-hoc basis. Apply by 5pm today: <a href="https://www.nice.org.uk/get-involved/join-a-committee/eap-centre-for-guidelines">https://www.nice.org.uk/get-involved/join-a-committee/eap-centre-for-guidelines</a> …</p>
-                            
+
                         </div>
                         <hr id="grey" />
 
@@ -223,7 +263,7 @@
                         <img src="~/pictures/twiiternice.png" class="tweetlogo" /> <span class="tweetanchor"><B>NICE</B><a href="#">@@NICEcomms</a></span>
                         <div class="tweetcontent">
                             <p>New draft guidance recommends a drug that could prevent heart attacks and strokes: <a href="https://www.nice.org.uk/news/article/thousands-to-benefit-as-nice-set-to-recommend-drug-to-prevent-heart-attacks-and-strokes">https://www.nice.org.uk/news/article/thousands-to-benefit-as-nice-set-to-recommend-drug-to-prevent-heart-attacks-and-strokes</a> …</p>
-                            <img src="~/pictures/CppHjPSUsAAA-gM.jpg"  class="twitterimage"/>
+                            <img src="~/pictures/CppHjPSUsAAA-gM.jpg" class="twitterimage" />
                         </div>
                         <hr id="grey" />
 
